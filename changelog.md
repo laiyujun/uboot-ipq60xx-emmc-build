@@ -1,6 +1,6 @@
 ## 📋 更新日志
 
-### 📅 [26.01.02](https://github.com/chenxin527/uboot-ipq60xx-emmc-build/releases/tag/26.01.02-15.33.09)
+### 📅 [26.01.02](https://github.com/laiyujun/uboot-ipq60xx-emmc-build/releases/tag/26.01.02-15.33.09)
 
 #### ✨ 功能更新
 
@@ -17,7 +17,7 @@
 - 合并 NN6000 V1 & V2 的 U-Boot
 - 为打印的日志中的十六进制数添加 0x 前缀
 
-### 📅 [25.12.16](https://github.com/chenxin527/uboot-ipq60xx-emmc-build/releases/tag/25.12.16-15.26.27)
+### 📅 [25.12.16](https://github.com/laiyujun/uboot-ipq60xx-emmc-build/releases/tag/25.12.16-15.26.27)
 
 #### ✨ 功能更新
 
@@ -29,12 +29,12 @@
 
 #### 📢 其他更新
 
-- 修改 bootcmd 为 bootipq（[点击此处](https://github.com/chenxin527/uboot-ipq60xx-emmc-build/commit/b1682e34c931779f1f46ff4d210777e9b1256f1a) 查看详细说明）
+- 修改 bootcmd 为 bootipq（[点击此处](https://github.com/laiyujun/uboot-ipq60xx-emmc-build/commit/b1682e34c931779f1f46ff4d210777e9b1256f1a) 查看详细说明）
 - 修改 smeminfo 命令的输出内容
 - 检查上传的文件是否正确，不正确则返回 fail.html，并在串口控制台打印相关信息
 - 调整文件上传前填充的内存区域大小，文件上传完成后填充文件之后一定大小的内存区域
 
-### 📅 [25.11.13](https://github.com/chenxin527/uboot-ipq60xx-emmc-build/releases/tag/25.11.13-22.43.36)
+### 📅 [25.11.13](https://github.com/laiyujun/uboot-ipq60xx-emmc-build/releases/tag/25.11.13-22.43.36)
 
 #### ✨ 功能更新
 
@@ -52,7 +52,7 @@
 - 填充 U-Boot 至 640KB (655360 Bytes)
 - 将通过网页刷写的 U-Boot 大小限制调回 640KB
 
-### 📅 [25.11.03](https://github.com/chenxin527/uboot-ipq60xx-emmc-build/releases/tag/25.11.03-17.23.47)
+### 📅 [25.11.03](https://github.com/laiyujun/uboot-ipq60xx-emmc-build/releases/tag/25.11.03-17.23.47)
 
 #### 🌐 网页更新
 
@@ -65,7 +65,7 @@
 
 - 填充 U-Boot 至 1024KB（1048576 Bytes）
 
-### 📅 [25.10.25](https://github.com/chenxin527/uboot-ipq60xx-emmc-build/releases/tag/25.10.25-15.18.56)
+### 📅 [25.10.25](https://github.com/laiyujun/uboot-ipq60xx-emmc-build/releases/tag/25.10.25-15.18.56)
 
 #### ✨ 功能更新
 
@@ -75,7 +75,7 @@
 
 - 修改部分网页提示信息
 
-### 📅 [25.10.12](https://github.com/chenxin527/uboot-ipq60xx-emmc-build/releases/tag/25.10.12-14.44.11)
+### 📅 [25.10.12](https://github.com/laiyujun/uboot-ipq60xx-emmc-build/releases/tag/25.10.12-14.44.11)
 
 #### ✨ 功能更新
 
@@ -90,7 +90,7 @@
 
 - 修改更新固件时的串口输出日志
 
-### 📅 [25.09.15](https://github.com/chenxin527/uboot-ipq60xx-emmc-build/releases/tag/25.09.15-23.49.18)
+### 📅 [25.09.15](https://github.com/laiyujun/uboot-ipq60xx-emmc-build/releases/tag/25.09.15-23.49.18)
 
 #### ✨ 功能更新
 

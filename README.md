@@ -2,9 +2,9 @@
 
 u-boot-2016 源代码基于：https://github.com/gl-inet/uboot-ipq60xx
 
-**NOR** 机型 U-Boot 仓库：https://github.com/chenxin527/uboot-ipq60xx-nor-build
+**NOR** 机型 U-Boot 仓库：https://github.com/laiyujun/uboot-ipq60xx-nor-build
 
-**NAND** 机型 U-Boot 仓库：https://github.com/chenxin527/uboot-ipq60xx-nand-build
+**NAND** 机型 U-Boot 仓库：https://github.com/laiyujun/uboot-ipq60xx-nand-build
 
 ## 适配设备
 
@@ -33,7 +33,7 @@ sudo apt install -y build-essential device-tree-compiler
 2. 克隆此仓库
 
 ```bash
-git clone https://github.com/chenxin527/uboot-ipq60xx-emmc-build.git
+git clone https://github.com/laiyujun/uboot-ipq60xx-emmc-build.git
 ```
 
 3. 编译你需要的设备
@@ -92,7 +92,7 @@ U-Boot 截图示例（[点击此处](./screenshots.md) 查看所有网页截图�
 >
 > [点击此处](http://example.com) 获取 USB 9008 救砖教程及相关文件。
 >
-> [点击此处](https://github.com/chenxin527/OWRT-BUILDS/releases?q=UIMAGE-ONLY-IPQ60XX&expanded=true) 获取经测试可正常使用的 uImage。
+> [点击此处](https://github.com/laiyujun/OWRT-BUILDS/releases?q=UIMAGE-ONLY-IPQ60XX&expanded=true) 获取经测试可正常使用的 uImage。
 
 ### 进 Web 刷机界面
 
@@ -108,7 +108,7 @@ U-Boot 截图示例（[点击此处](./screenshots.md) 查看所有网页截图�
 
 ### 其他
 
-**U-Boot 支持 DHCP，无需手动固定 IP（自 [26.01.02-15.33.09](https://github.com/chenxin527/uboot-ipq60xx-emmc-build/releases/tag/26.01.02-15.33.09) 版本起）。** 访问 U-Boot Web 后台时不要将路由器与上级路由连接，以免上级路由 DHCP 干扰。
+**U-Boot 支持 DHCP，无需手动固定 IP（自 [26.01.02-15.33.09](https://github.com/laiyujun/uboot-ipq60xx-emmc-build/releases/tag/26.01.02-15.33.09) 版本起）。** 访问 U-Boot Web 后台时不要将路由器与上级路由连接，以免上级路由 DHCP 干扰。
 
 U-Boot 下不区分 LAN / WAN，任意网口均可进入 Web 刷机界面。
 
@@ -120,7 +120,7 @@ U-Boot 下不区分 LAN / WAN，任意网口均可进入 Web 刷机界面。
 
 连我 NN6000 V1 的 U-Boot 未测试过，因为没有机器。
 
-V1 和 V2 的 U-Boot 只是网口配置不同，其他都一样。若发现 V1 的 U-Boot 不能正常使用，可刷写 V2 的 U-Boot 测试（自 [26.01.02-15.33.09](https://github.com/chenxin527/uboot-ipq60xx-emmc-build/releases/tag/26.01.02-15.33.09) 版本起合并 V1 和 V2 的 U-Boot），看看每个网口是否能正常进 Web。每换一个网口都要断电并重新按 RESET / WPS 键启动 HTTP Server，不要在 HTTP Server 已经启动的时候换网口，这样是进不了 Web 的。
+V1 和 V2 的 U-Boot 只是网口配置不同，其他都一样。若发现 V1 的 U-Boot 不能正常使用，可刷写 V2 的 U-Boot 测试（自 [26.01.02-15.33.09](https://github.com/laiyujun/uboot-ipq60xx-emmc-build/releases/tag/26.01.02-15.33.09) 版本起合并 V1 和 V2 的 U-Boot），看看每个网口是否能正常进 Web。每换一个网口都要断电并重新按 RESET / WPS 键启动 HTTP Server，不要在 HTTP Server 已经启动的时候换网口，这样是进不了 Web 的。
 
 ### bootipq 失败后执行 httpd 出错
 
